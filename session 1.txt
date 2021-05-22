@@ -1,0 +1,26 @@
+postman session -2
+ 
+http requests
+GET:
+POST:Request body/Request payload
+PUT:Request body/Request payload
+DELETE:
+
+-->Every request will get you Response in JSON/HTML/TEXT eTc...
+
+Api testing Templete:
+
+TCID   ENDPOINT    HTTPmethodtype    URI     Body     successresponse    failresponse    ststuscode    comments    validations
+
+
+
+
+
+
+
+
+
+
+
+
+

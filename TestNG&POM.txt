@@ -1,0 +1,48 @@
+Test NG 
+annotations order:
+
+@before suite---consists of tests ,class and methods or group of test cases
+@before test
+@before class
+@before method
+@test
+@after method
+@after class
+@after test
+@after suite
+
+
+@before method is precondition
+@after method is post condition
+
+
+Every @test method before @before method will execute first after that @test execute after that @after method execute
+
+@ before class:this method will execute before the first test method in the current class
+@after class:this method will execute the  test methods in the current class have been execute
+@ before suite:this method will execute before all tests in this suite
+@after suite:this method will execute after all tests in this suite
+
+
+
+
+POM: 
+-->it is a design pattern to create object repository for webelements in web browser applications
+-->in page object model each and every page consider as one class   and in this class  we find webelements and methods
+-->by using this model if any ui changes for any page it's does't required to change any test just we need to change only the code with in the
+page objects
+-->by using page factory we can initilize webelements by using @findby annotation
+-->in this model we have to declare webelements ,initilize webelements and utilize webelements and methods
+-->in this model we create three package
+-->in one package we used to manage all resable method
+-->in another package we used to manage all page objects
+-->in another package we used to manage all the test scripts
+
+
+
+
+
+
+
+
+

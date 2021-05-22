@@ -1,0 +1,12 @@
+ROBO SOFT:
+1.Tell me about your self
+2.Frame work structure
+3.scree shoot method
+4.write a java program input 1-100 in that one number is faulty how do you identify
+5.write test cases for whatapp's
+6.how do select what test cases come under which testing
+7.what is priyarity
+8.what is severity
+9.who will give the priority and severity
+10.we have two same size candles  one candle burn in 30min you don't have any timer how to calculate 45mins time by using these two candles
+11.api testing automation question how do you send values url through automation code
